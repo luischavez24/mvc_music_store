@@ -3,7 +3,7 @@
 ## Detalle del Proyecto
 
 **Curso**
-Diseño de Sistemas
+Diseño de Sistemas de Sistemas de información
 **Profesor**
 David Espinoza Robles
 
