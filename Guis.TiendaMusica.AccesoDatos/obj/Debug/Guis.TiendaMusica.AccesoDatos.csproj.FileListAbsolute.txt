@@ -1,0 +1,9 @@
+C:\Users\lucho\Documents\Visual Studio 2012\Projects\Guis.TiendaMusica\Guis.TiendaMusica.AccesoDatos\bin\Debug\Guis.TiendaMusica.AccesoDatos.dll
+C:\Users\lucho\Documents\Visual Studio 2012\Projects\Guis.TiendaMusica\Guis.TiendaMusica.AccesoDatos\bin\Debug\Guis.TiendaMusica.AccesoDatos.pdb
+C:\Users\lucho\Documents\Visual Studio 2012\Projects\Guis.TiendaMusica\Guis.TiendaMusica.AccesoDatos\bin\Debug\Guis.TiendaMusica.Entidades.dll
+C:\Users\lucho\Documents\Visual Studio 2012\Projects\Guis.TiendaMusica\Guis.TiendaMusica.AccesoDatos\bin\Debug\Guis.TiendaMusica.Infraestructura.dll
+C:\Users\lucho\Documents\Visual Studio 2012\Projects\Guis.TiendaMusica\Guis.TiendaMusica.AccesoDatos\bin\Debug\Guis.TiendaMusica.Entidades.pdb
+C:\Users\lucho\Documents\Visual Studio 2012\Projects\Guis.TiendaMusica\Guis.TiendaMusica.AccesoDatos\bin\Debug\Guis.TiendaMusica.Infraestructura.pdb
+C:\Users\lucho\Documents\Visual Studio 2012\Projects\Guis.TiendaMusica\Guis.TiendaMusica.AccesoDatos\obj\Debug\Guis.TiendaMusica.AccesoDatos.csprojResolveAssemblyReference.cache
+C:\Users\lucho\Documents\Visual Studio 2012\Projects\Guis.TiendaMusica\Guis.TiendaMusica.AccesoDatos\obj\Debug\Guis.TiendaMusica.AccesoDatos.dll
+C:\Users\lucho\Documents\Visual Studio 2012\Projects\Guis.TiendaMusica\Guis.TiendaMusica.AccesoDatos\obj\Debug\Guis.TiendaMusica.AccesoDatos.pdb

@@ -1,0 +1,4 @@
+C:\Users\lucho\Documents\Visual Studio 2012\Projects\Guis.TiendaMusica\Guis.TiendaMusica.Infraestructura\bin\Debug\Guis.TiendaMusica.Infraestructura.dll
+C:\Users\lucho\Documents\Visual Studio 2012\Projects\Guis.TiendaMusica\Guis.TiendaMusica.Infraestructura\bin\Debug\Guis.TiendaMusica.Infraestructura.pdb
+C:\Users\lucho\Documents\Visual Studio 2012\Projects\Guis.TiendaMusica\Guis.TiendaMusica.Infraestructura\obj\Debug\Guis.TiendaMusica.Infraestructura.dll
+C:\Users\lucho\Documents\Visual Studio 2012\Projects\Guis.TiendaMusica\Guis.TiendaMusica.Infraestructura\obj\Debug\Guis.TiendaMusica.Infraestructura.pdb

@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{274BFC83-198D-45D1-8536-AB052CEC975B}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Guis.TiendaMusica.Negocio</RootNamespace>
+    <AssemblyName>Guis.TiendaMusica.Negocio</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Tienda\Album_LN.cs" />
+    <Compile Include="Tienda\Artist_LN.cs" />
+    <Compile Include="Tienda\Genre_LN.cs" />
+    <Compile Include="Tienda\MusicStoreEntities_LN.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Seguridad\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Guis.TiendaMusica.AccesoDatos\Guis.TiendaMusica.AccesoDatos.csproj">
+      <Project>{acd9c49f-2311-4f8c-9697-4cfde47e8a80}</Project>
+      <Name>Guis.TiendaMusica.AccesoDatos</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Guis.TiendaMusica.Entidades\Guis.TiendaMusica.Entidades.csproj">
+      <Project>{6720127d-2a80-4ad9-897a-ef3bda1130c7}</Project>
+      <Name>Guis.TiendaMusica.Entidades</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Guis.TiendaMusica.Infraestructura\Guis.TiendaMusica.Infraestructura.csproj">
+      <Project>{e236c51a-fa8c-45bf-a2ee-28c1ca75151b}</Project>
+      <Name>Guis.TiendaMusica.Infraestructura</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
