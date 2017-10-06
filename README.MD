@@ -4,6 +4,7 @@
 
 **Curso**
 Diseño de Sistemas de Sistemas de información
+
 **Profesor**
 David Espinoza Robles
 
