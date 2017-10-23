@@ -1,47 +1,24 @@
 ﻿<!DOCTYPE html>
 <html>
 <head>
-    <meta charset="utf-8" />
+
     <title>@ViewBag.Title</title>
-    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <link href="@Url.Content("~/Content/bootstrap-flatly.css")" rel="stylesheet" />
-    <script src="@Url.Content("~/Scripts/jquery.js")" type="text/javascript"></script>
-    <script src="@Url.Content("~/Scripts/bootstrap.min.js")" type="text/javascript"></script>
-    <link rel="icon" type="image/png" href="@Url.Content("~/Content/Images/logo.png")">
+    <link href="@Url.Content("~/Content/Site.css")"
+rel="stylesheet" type="text/css" />
+    <script src="@Url.Content("~/Scripts/jquery-1.7.1.min.js")"
+type="text/javascript"></script>
 </head>
 <body>
-    <div class="container">
-        <header>
-		    <div class="row">
-			    <!-- Barra de navegación -->
-			    <nav class="navbar navbar-default">
-				    <div class="container-fluid">
-					    <div class="navbar-header">
-						    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-							    <span class="icon-bar"></span>
-							    <span class="icon-bar"></span>
-							    <span class="icon-bar"></span> 
-						    </button>
-						    <a class="navbar-brand" href="#" style="padding:10px;display:flex; align-items:center; width:250px;">
-                                <img src="@Url.Content("~/Content/Images/logo.png")" alt="logo" width="40" height="40"/>
-                                 &nbsp;&nbsp;Tienda de música
-						    </a>
-					    </div>
-					    <div class="collapse navbar-collapse" id="myNavbar">
-						    <ul class="nav navbar-nav">
-							    <li>@Html.ActionLink("Página Principal", "Index", "Home")</li>
-                                <li>@Html.ActionLink("Tienda", "Index", "Store")</li>
-                            </ul>
-					    </div>
-				    </div>
-			    </nav>
-		    </div>
-        </header>
-        <section id="main">
-            <div class="container">
-                  @RenderBody()
-            </div>
-        </section>
+    <div id="header">
+        <h1>
+            ASP.NET MVC MUSIC STORE</h1>
+        <ul id="navlist">
+            <li class="first"><a href="/"
+id="current">Home</a></li>
+            <li><a
+href="/Store/">Store</a></li>
+        </ul>
     </div>
+    @RenderBody()
 </body>
 </html>
